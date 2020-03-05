@@ -15,9 +15,9 @@ namespace Cilindro
             float h1 = float.Parse(h);
             float r1 = float.Parse(r);
 
-            float V = Convert.ToSingle(Math.PI * (r1 * r1) * h1);
+            float V = (float) (Math.PI * (Math.Pow(r1, 2)) * h1);
 
-            float S = Convert.ToSingle(2 * Math.PI * r1 * ( r1 + h1));
+            float S = (float) (2 * Math.PI * r1 * ( r1 + h1));
 
             Console.WriteLine($"Volume do Cilindro: {V} Area Superficie : {S}");
 
