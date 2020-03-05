@@ -19,7 +19,9 @@ namespace Cilindro
 
             float V = pi * (r1 * r1) * h1;
 
-            Console.WriteLine($"{V}");
+            float S = 2 * pi * r1 * ( r1 + h1);
+
+            Console.WriteLine($"Volume do Cilindro: {V} Area Superficie : {S}");
 
 
 
